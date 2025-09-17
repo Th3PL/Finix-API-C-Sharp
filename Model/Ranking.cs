@@ -14,6 +14,7 @@ namespace Model
         public double pontos { get; set; }
 
 
+        public Ranking() { }
 
         public Ranking(Jogador jogador) 
         {

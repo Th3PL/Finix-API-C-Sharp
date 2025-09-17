@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "WebAPI.Controllers.JogadorController",
+    "Method": "Get",
+    "RelativePath": "finix/Jogador",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.JogadorController",
+    "Method": "Post",
+    "RelativePath": "finix/Jogador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jogador",
+        "Type": "Model.Jogador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.JogadorController",
+    "Method": "Put",
+    "RelativePath": "finix/Jogador",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jogador",
+        "Type": "Model.Jogador",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.JogadorController",
+    "Method": "Get",
+    "RelativePath": "finix/Jogador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.JogadorController",
+    "Method": "Delete",
+    "RelativePath": "finix/Jogador/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

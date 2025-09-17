@@ -52,3 +52,12 @@ C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\runtimes\osx\lib\n
 C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
 C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\pluca\source\repos\FINIX-API\WebAPI\obj\Debug\net8.0\WebAPI.sourcelink.json
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Business.dll
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Data.dll
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Model.dll
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Business.pdb
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Model.pdb
+C:\Users\pluca\source\repos\FINIX-API\WebAPI\bin\Debug\net8.0\Data.pdb
