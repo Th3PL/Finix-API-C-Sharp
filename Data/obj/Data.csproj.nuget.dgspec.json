@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj": {}
+    "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj": {
+    "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj",
-        "projectName": "Model",
-        "projectPath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\pluca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\obj\\",
+        "outputPath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,9 +54,15 @@
               "target": "Package",
               "version": "[9.0.9, )"
             },
-            "Oracle.ManagedDataAccess.Core": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[23.9.1, )"
+              "version": "[9.0.9, )"
+            },
+            "Oracle.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.23.90, )"
             }
           },
           "imports": [
