@@ -677,7 +677,7 @@
           "lib/net8.0/Oracle.EntityFrameworkCore.dll": {}
         }
       },
-      "Oracle.ManagedDataAccess.Core/23.9.0": {
+      "Oracle.ManagedDataAccess.Core/23.9.1": {
         "type": "package",
         "dependencies": {
           "System.Diagnostics.PerformanceCounter": "8.0.0",
@@ -1122,6 +1122,20 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.9",
+          "Oracle.ManagedDataAccess.Core": "23.9.1"
+        },
+        "compile": {
+          "bin/placeholder/Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Model.dll": {}
         }
       }
     }
@@ -2606,10 +2620,10 @@
         "oracle.png"
       ]
     },
-    "Oracle.ManagedDataAccess.Core/23.9.0": {
-      "sha512": "fcnMqoX38t5/KrI+0WqgCng/Ggu7ESNgebqDqsSF7bcC4d7Fl3e7AoHk/Nh5FtGZAJOjeSRqFkM8qhTqMdRDQQ==",
+    "Oracle.ManagedDataAccess.Core/23.9.1": {
+      "sha512": "WDQxe50dzRdtNoPKiFwF5p4Zv6AGwM7IKfnWQa7/ijd0k+vT6RBmwLRjtS0wn4C3PIamygy1Vn6AV3GgNkkGXg==",
       "type": "package",
-      "path": "oracle.manageddataaccess.core/23.9.0",
+      "path": "oracle.manageddataaccess.core/23.9.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2620,7 +2634,7 @@
         "info.txt",
         "lib/net8.0/Oracle.ManagedDataAccess.dll",
         "lib/netstandard2.1/Oracle.ManagedDataAccess.dll",
-        "oracle.manageddataaccess.core.23.9.0.nupkg.sha512",
+        "oracle.manageddataaccess.core.23.9.1.nupkg.sha512",
         "oracle.manageddataaccess.core.nuspec",
         "oracle.png"
       ]
@@ -3344,12 +3358,18 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Model/1.0.0": {
+      "type": "project",
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 9.0.9",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.9",
+      "Model >= 1.0.0",
       "Oracle.EntityFrameworkCore >= 9.23.90"
     ]
   },
@@ -3384,7 +3404,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj": {
+              "projectPath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

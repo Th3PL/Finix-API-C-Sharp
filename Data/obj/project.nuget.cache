@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZSSBBJcF00=",
+  "dgSpecHash": "Whe3TFb1bFQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Data.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "C:\\Users\\pluca\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\oracle.entityframeworkcore\\9.23.90\\oracle.entityframeworkcore.9.23.90.nupkg.sha512",
-    "C:\\Users\\pluca\\.nuget\\packages\\oracle.manageddataaccess.core\\23.9.0\\oracle.manageddataaccess.core.23.9.0.nupkg.sha512",
+    "C:\\Users\\pluca\\.nuget\\packages\\oracle.manageddataaccess.core\\23.9.1\\oracle.manageddataaccess.core.23.9.1.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\system.composition\\7.0.0\\system.composition.7.0.0.nupkg.sha512",
