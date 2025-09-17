@@ -13,6 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IJogadorService, JogadorService>();
+builder.Services.AddScoped<IRankingService, RankingService>();
+
 
 var app = builder.Build();
 

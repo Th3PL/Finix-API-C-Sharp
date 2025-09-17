@@ -9,17 +9,17 @@ namespace Model
     public class Ranking
     {
 
-        public int posicao {  get; set; }
-        public string nome { get; set; }
-        public double pontos { get; set; }
+        public int Posicao {  get; set; }
+        public string Nome { get; set; }
+        public double Pontos { get; set; }
 
 
         public Ranking() { }
 
         public Ranking(Jogador jogador) 
         {
-            nome = jogador.Nome;
-            pontos = jogador.Pontos;
+            Nome = jogador.Nome;
+            Pontos = jogador.Pontos;
         }
     }
 
