@@ -3,44 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\testesunit\u00E1rios\\testesunit\u00E1rios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|solutionrelative:testesunit\u00E1rios\\testesunit\u00E1rios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\testesunit\u00E1rios\\repository\\jogadorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|solutionrelative:testesunit\u00E1rios\\repository\\jogadorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\testesunit\u00E1rios\\repository\\rankingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|solutionrelative:testesunit\u00E1rios\\repository\\rankingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|solutionrelative:business\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\jogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|solutionrelative:business\\jogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\webapi\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\webapi\\controllers\\jogadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\jogadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\model\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|solutionrelative:model\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\model\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|solutionrelative:model\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\testesunit\u00E1rios\\testesunit\u00E1rios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|solutionrelative:testesunit\u00E1rios\\testesunit\u00E1rios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\webapi\\controllers\\jogadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\jogadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\jogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|solutionrelative:business\\jogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\ijogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|solutionrelative:business\\ijogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|solutionrelative:model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\model\\enderecoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|solutionrelative:model\\enderecoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7BD2A7-27BB-449E-A34F-F18F8A582F55}|Data\\Data.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\data\\migrations\\20251019124253_addenderecotojogador3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7BD2A7-27BB-449E-A34F-F18F8A582F55}|Data\\Data.csproj|solutionrelative:data\\migrations\\20251019124253_addenderecotojogador3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\model\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|solutionrelative:model\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|solutionrelative:business\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\testesunit\u00E1rios\\repository\\rankingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C304700-DBA1-47BA-B688-CA4D287F1470}|TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj|solutionrelative:testesunit\u00E1rios\\repository\\rankingservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\webapi\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\rankingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\irankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\business\\ijogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC602148-DFBB-4792-9E5F-8969D4937070}|Business\\Business.csproj|solutionrelative:business\\ijogadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{09AAD959-53C1-4187-8281-511D9562968B}|WebAPI\\WebAPI.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -73,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AE7BD2A7-27BB-449E-A34F-F18F8A582F55}|Data\\Data.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AE7BD2A7-27BB-449E-A34F-F18F8A582F55}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|c:\\users\\pluca\\source\\repos\\finix-api\\model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{52070EF6-A77D-40DE-9606-1AA1E57C38D1}|Model\\Model.csproj|solutionrelative:model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,50 +94,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RankingServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
-              "RelativeDocumentMoniker": "TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
-              "RelativeToolTip": "TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
-              "ViewState": "AgIAAH8AAAAAAAAAAAAcwIAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T21:55:23.518Z",
+              "WhenOpened": "2025-09-17T18:56:22.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "JogadorController.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Controllers\\JogadorController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\JogadorController.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Controllers\\JogadorController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\JogadorController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:38:01.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IJogadorService.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\IJogadorService.cs",
+              "RelativeDocumentMoniker": "Business\\IJogadorService.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\IJogadorService.cs",
+              "RelativeToolTip": "Business\\IJogadorService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:06:40.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JogadorService.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\JogadorService.cs",
+              "RelativeDocumentMoniker": "Business\\JogadorService.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\JogadorService.cs",
+              "RelativeToolTip": "Business\\JogadorService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T11:14:03.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "JogadorServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\repository\\JogadorServiceTests.cs",
               "RelativeDocumentMoniker": "TestesUnit\u00E1rios\\repository\\JogadorServiceTests.cs",
               "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\repository\\JogadorServiceTests.cs",
               "RelativeToolTip": "TestesUnit\u00E1rios\\repository\\JogadorServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAK4AAAAAAAAAAADwvzEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T21:46:40.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestesUnit\u00E1rios",
+              "DocumentIndex": 2,
+              "Title": "TestesUnit\u00E1rios.csproj",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj",
               "RelativeDocumentMoniker": "TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj",
               "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj",
               "RelativeToolTip": "TestesUnit\u00E1rios\\TestesUnit\u00E1rios.csproj",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-10T21:43:25.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "Model.csproj",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj",
+              "RelativeDocumentMoniker": "Model\\Model.csproj",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj",
+              "RelativeToolTip": "Model\\Model.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-17T10:23:00.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnderecoResponse.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\EnderecoResponse.cs",
+              "RelativeDocumentMoniker": "Model\\EnderecoResponse.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\EnderecoResponse.cs",
+              "RelativeToolTip": "Model\\EnderecoResponse.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:51:31.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251019124253_AddEnderecoToJogador3.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Migrations\\20251019124253_AddEnderecoToJogador3.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20251019124253_AddEnderecoToJogador3.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Migrations\\20251019124253_AddEnderecoToJogador3.cs",
+              "RelativeToolTip": "Data\\Migrations\\20251019124253_AddEnderecoToJogador3.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T12:42:56.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Jogador.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Jogador.cs",
+              "RelativeDocumentMoniker": "Model\\Jogador.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Jogador.cs",
+              "RelativeToolTip": "Model\\Jogador.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:24:18.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RankingService.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\RankingService.cs",
+              "RelativeDocumentMoniker": "Business\\RankingService.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\RankingService.cs",
+              "RelativeToolTip": "Business\\RankingService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:12:37.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "RankingController.cs",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Controllers\\RankingController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\RankingController.cs",
@@ -137,63 +249,36 @@
               "RelativeToolTip": "WebAPI\\Controllers\\RankingController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:17:11.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RankingService.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\RankingService.cs",
-              "RelativeDocumentMoniker": "Business\\RankingService.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\RankingService.cs",
-              "RelativeToolTip": "Business\\RankingService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T19:12:37.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T18:56:22.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JogadorController.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Controllers\\JogadorController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\JogadorController.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\Controllers\\JogadorController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\JogadorController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T18:38:01.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Jogador.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Jogador.cs",
-              "RelativeDocumentMoniker": "Model\\Jogador.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Jogador.cs",
-              "RelativeToolTip": "Model\\Jogador.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T10:24:18.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-17T19:17:11.277Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Ranking.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Ranking.cs",
+              "RelativeDocumentMoniker": "Model\\Ranking.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Ranking.cs",
+              "RelativeToolTip": "Model\\Ranking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:29:40.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RankingServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
+              "RelativeDocumentMoniker": "TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
+              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
+              "RelativeToolTip": "TestesUnit\u00E1rios\\repository\\RankingServiceTests.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAcwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T21:55:23.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IRankingService.cs",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\IRankingService.cs",
               "RelativeDocumentMoniker": "Business\\IRankingService.cs",
@@ -205,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Data.csproj",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
@@ -213,37 +298,12 @@
               "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-17T11:15:45.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JogadorService.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\JogadorService.cs",
-              "RelativeDocumentMoniker": "Business\\JogadorService.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\JogadorService.cs",
-              "RelativeToolTip": "Business\\JogadorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T11:14:03.249Z",
+              "WhenOpened": "2025-09-17T11:15:45.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Ranking.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Ranking.cs",
-              "RelativeDocumentMoniker": "Model\\Ranking.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Ranking.cs",
-              "RelativeToolTip": "Model\\Ranking.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA7wBUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T10:29:40.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "Business.csproj",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\Business.csproj",
               "RelativeDocumentMoniker": "Business\\Business.csproj",
@@ -251,11 +311,12 @@
               "RelativeToolTip": "Business\\Business.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-17T11:06:13.098Z"
+              "WhenOpened": "2025-09-17T11:06:13.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -267,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ApplicationDbContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Data\\ApplicationDbContextFactory.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContextFactory.cs",
@@ -279,19 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IJogadorService.cs",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\IJogadorService.cs",
-              "RelativeDocumentMoniker": "Business\\IJogadorService.cs",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\IJogadorService.cs",
-              "RelativeToolTip": "Business\\IJogadorService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T11:06:40.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "WebAPI.csproj",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\WebAPI.csproj",
               "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
@@ -299,11 +348,12 @@
               "RelativeToolTip": "WebAPI\\WebAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-17T18:41:40.979Z"
+              "WhenOpened": "2025-09-17T18:41:40.979Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
@@ -312,18 +362,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-17T10:58:05.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Model.csproj",
-              "DocumentMoniker": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj",
-              "RelativeDocumentMoniker": "Model\\Model.csproj",
-              "ToolTip": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Model\\Model.csproj",
-              "RelativeToolTip": "Model\\Model.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-17T10:23:00.115Z"
             }
           ]
         }

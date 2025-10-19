@@ -5,7 +5,7 @@
 namespace Data.Migrations
 {
     /// <inheritdoc />
-    public partial class first : Migration
+    public partial class AddEnderecoToJogador3 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -19,7 +19,10 @@ namespace Data.Migrations
                     Nome = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
                     Email = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
                     telefone = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
-                    Pontos = table.Column<double>(type: "BINARY_DOUBLE", nullable: false)
+                    Pontos = table.Column<double>(type: "BINARY_DOUBLE", nullable: false),
+                    CEP = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
+                    Cidade = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false),
+                    Estado = table.Column<string>(type: "NVARCHAR2(2000)", nullable: false)
                 },
                 constraints: table =>
                 {

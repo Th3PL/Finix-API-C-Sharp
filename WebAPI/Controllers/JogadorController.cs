@@ -12,10 +12,15 @@ namespace WebAPI.Controllers
     {
         private readonly IJogadorService _jogadorService;
 
-        public JogadorController(IJogadorService jogadorService)
+        private readonly ViaCepService _viaCepService;
+
+
+        public JogadorController(IJogadorService jogadorService, ViaCepService viaCepService)
         {
             _jogadorService = jogadorService;
+            _viaCepService = viaCepService;
         }
+
 
         [HttpGet]
         public IActionResult Get()
@@ -58,5 +63,14 @@ namespace WebAPI.Controllers
         {
             return _jogadorService.Delete(id) ? NoContent() : NotFound();
         }
+
+
+        [HttpPut("atualizar-endereco/{id}")]
+        public IActionResult AtualizarEndereco(int id, [FromBody] string cep)
+        {
+            var atualizado = _jogadorService.AtualizarEndereco(id, cep);
+            return atualizado ? Ok("Endereço atualizado com sucesso.") : NotFound("Jogador não encontrado ou erro ao consultar CEP.");
+        }
+
     }
 }

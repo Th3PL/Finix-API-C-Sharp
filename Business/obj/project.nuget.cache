@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+GrBK38zR9o=",
+  "dgSpecHash": "FZBNLe+LoJo=",
   "success": true,
   "projectFilePath": "C:\\Users\\pluca\\source\\repos\\FINIX-API\\Business\\Business.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\pluca\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.9\\microsoft.extensions.logging.abstractions.9.0.9.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\microsoft.extensions.options\\9.0.9\\microsoft.extensions.options.9.0.9.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.9\\microsoft.extensions.primitives.9.0.9.nupkg.sha512",
+    "C:\\Users\\pluca\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\oracle.entityframeworkcore\\9.23.90\\oracle.entityframeworkcore.9.23.90.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\oracle.manageddataaccess.core\\23.9.1\\oracle.manageddataaccess.core.23.9.1.nupkg.sha512",
     "C:\\Users\\pluca\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",

@@ -705,6 +705,7 @@
       "Model/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.9",
+          "Newtonsoft.Json": "13.0.1",
           "Oracle.ManagedDataAccess.Core": "23.9.1"
         },
         "runtime": {

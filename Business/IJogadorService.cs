@@ -14,6 +14,6 @@ namespace Business
         Jogador Create(Jogador jogador);
         bool Update(Jogador jogador);
         bool Delete(int id);
-
+        bool AtualizarEndereco(int id, string cep);
     }
 }

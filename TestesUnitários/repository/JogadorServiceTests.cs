@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 namespace TestesUnitários.repository
 {
 
+
     public class JogadorServiceTests
     {
         private ApplicationDbContext CreateContext()
@@ -23,12 +24,16 @@ namespace TestesUnitários.repository
             return new ApplicationDbContext(options);
         }
 
+
         private static Jogador NovoJogador(
             int id,
             string nome = "Fulano",
             string email = "fulano@example.com",
             string telefone = "1199999-0000",
-            int pontos = 0)
+            double pontos = 0,
+            string cep = "01001000",
+            string cidade = "São Paulo",
+            string estado = "SP")
         {
             return new Jogador
             {
@@ -36,8 +41,18 @@ namespace TestesUnitários.repository
                 Nome = nome,
                 Email = email,
                 telefone = telefone,
-                Pontos = pontos
+                Pontos = pontos,
+                CEP = cep,
+                Cidade = cidade,
+                Estado = estado
             };
+        }
+
+
+        private ViaCepService CriarViaCepServiceMock()
+        {
+            var httpClient = new HttpClient(); // Pode ser substituído por um mock mais elaborado
+            return new ViaCepService(httpClient);
         }
 
         [Fact]
@@ -50,7 +65,7 @@ namespace TestesUnitários.repository
             );
             ctx.SaveChanges();
 
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var lista = service.FindAll();
 
@@ -69,7 +84,7 @@ namespace TestesUnitários.repository
             );
             ctx.SaveChanges();
 
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var jogador = service.FindById(2);
 
@@ -85,7 +100,7 @@ namespace TestesUnitários.repository
             ctx.Jogadores.Add(NovoJogador(1, "Ana"));
             ctx.SaveChanges();
 
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var jogador = service.FindById(99);
 
@@ -96,11 +111,10 @@ namespace TestesUnitários.repository
         public void Create_DeveAdicionarJogadorESalvar()
         {
             using var ctx = CreateContext();
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var novo = new Jogador
             {
-                Id = 10, // Se sua PK for identity, você pode deixar 0 e checar a geração
                 Nome = "Carlos",
                 Email = "carlos@example.com",
                 telefone = "1191111-2222",
@@ -110,7 +124,7 @@ namespace TestesUnitários.repository
             var criado = service.Create(novo);
 
             criado.Should().NotBeNull();
-            criado.Id.Should().Be(10);
+            criado.Id.Should().BeGreaterThan(0);
             ctx.Jogadores.Count().Should().Be(1);
 
             var noBanco = ctx.Jogadores.First();
@@ -122,7 +136,7 @@ namespace TestesUnitários.repository
         public void Update_DeveRetornarFalse_QuandoJogadorNaoExistir()
         {
             using var ctx = CreateContext();
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var alteracao = new Jogador
             {
@@ -146,7 +160,7 @@ namespace TestesUnitários.repository
             ctx.Jogadores.Add(NovoJogador(1, "Ana", "ana@old.com", "1111", 0));
             ctx.SaveChanges();
 
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var alteracao = new Jogador
             {
@@ -175,7 +189,7 @@ namespace TestesUnitários.repository
             ctx.Jogadores.Add(NovoJogador(1, "Ana"));
             ctx.SaveChanges();
 
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var ok = service.Delete(99);
 
@@ -190,7 +204,7 @@ namespace TestesUnitários.repository
             ctx.Jogadores.AddRange(NovoJogador(1, "Ana"), NovoJogador(2, "Bruno"));
             ctx.SaveChanges();
 
-            var service = new JogadorService(ctx);
+            var service = new JogadorService(ctx, CriarViaCepServiceMock());
 
             var ok = service.Delete(1);
 
@@ -199,5 +213,6 @@ namespace TestesUnitários.repository
             ctx.Jogadores.First().Id.Should().Be(2);
         }
     }
+
 
 }

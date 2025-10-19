@@ -12,10 +12,15 @@ namespace Business
     {
         private readonly ApplicationDbContext _context;
 
-        public JogadorService(ApplicationDbContext context)
+        private readonly ViaCepService _viaCepService;
+
+
+        public JogadorService(ApplicationDbContext context, ViaCepService viaCepService)
         {
             _context = context;
+            _viaCepService = viaCepService;
         }
+
 
         public List<Jogador> FindAll()
         {
@@ -57,5 +62,25 @@ namespace Business
             _context.SaveChanges();
             return true;
         }
+
+        public bool AtualizarEndereco(int id, string cep)
+        {
+            var jogador = _context.Jogadores.Find(id);
+            if (jogador == null) return false;
+
+            var endereco = _viaCepService.ConsultarEnderecoPorCep(cep).Result;
+            if (endereco == null) return false;
+
+            jogador.CEP = cep;
+            jogador.Cidade = endereco.Localidade;
+            jogador.Estado = endereco.Uf;
+
+            _context.Jogadores.Update(jogador);
+            _context.SaveChanges();
+
+            return true;
+        }
+
+
     }
 }

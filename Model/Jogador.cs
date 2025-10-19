@@ -17,5 +17,9 @@ namespace Model
         public string Email { get; set; }
         public string telefone { get; set; }
         public double Pontos { get; set; }
+        public string CEP { get; set; }
+        public string Cidade { get; set; }
+        public string Estado { get; set; }
+
     }
 }

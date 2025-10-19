@@ -1,6 +1,7 @@
 using Business;
 using Data;
 using Microsoft.EntityFrameworkCore;
+using Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IJogadorService, JogadorService>();
 builder.Services.AddScoped<IRankingService, RankingService>();
-
+builder.Services.AddHttpClient<ViaCepService>();
 
 var app = builder.Build();
 
