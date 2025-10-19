@@ -11,6 +11,7 @@ A FINIX-API é uma aplicação backend desenvolvida em .NET para gerenciamento d
 | Buscar jogador por ID | `finix/jogador/{id}` | GET | Retorna os dados de um jogador específico                                |
 | Atualizar jogador | `finix/jogador/{id}` | PUT    | Atualiza nome e telefone de um jogador                                   |
 | Deletar jogador  | `finix/jogador/{id}` | DELETE | Remove um jogador do sistema                                             |
+| Atualizar endereço | `finix/jogador/atualizar-endereco/{id}`      | PUT    | Atualiza o endereço completo do jogador apenas pelo CEP utilizando a API ViaCep                  |
 | Ranking         | `finix/ranking`      | GET    | Retorna uma lista ranqueada dos jogadores por pontuação                  |
 
 
@@ -23,6 +24,9 @@ A aplicação segue os princípios da arquitetura REST, com separação clara en
 ![Diagrama-sequencia](/img/diagrama-sequencia.png)
 
 ## ⚙️ Demonstração no Postman
+
+### PUT Atualização de endereço pelo ViaCEP 🗺️
+![endereco](/img/endereco.png)
 
 ### Post ➕
 ![POST](/img/post.png)
